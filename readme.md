@@ -1,4 +1,9 @@
-## JSONObjectPlainer
+<a href="https://githubsfdeploy.herokuapp.com">
+  <img alt="Deploy to Salesforce"
+       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
+</a>
+
+# JSONObjectPlainer
 Transform SObject object with parent relationships to plain JSON object.
 Was developed to simplify data binding for lighting-datatable lwc component.
 Lighting-datatable doesn't support column field name with relation object like:
@@ -27,7 +32,7 @@ this class transform it to:
 }
 ```
 
-### JSONObjectPlainer usage
+### How to use
 JSONObjectPlainer.plain() accepts List of SObjects or single record as well.
 ```
 @AuraEnabled(cacheable=true)
