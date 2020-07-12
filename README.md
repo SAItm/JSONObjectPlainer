@@ -5,8 +5,8 @@
 
 # JSONObjectPlainer
 Transform SObject object with parent relationships to plain JSON object.
-Was developed to simplify data binding for lighting-datatable lwc component.
-Lighting-datatable doesn't support column field name with relation object like:
+Was developed to simplify data binding for lighting-datatable.
+lighting-datatable doesn't support column field name with relation object like:
 ```
 {
   
@@ -20,7 +20,7 @@ Lighting-datatable doesn't support column field name with relation object like:
   Quantity: 1
 }
 ```
-this class transform it to:
+JSONObjectPlainer transform it to:
 ```
 {
   Id: "0QL5000000380hoGAA",
